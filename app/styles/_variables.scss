@@ -162,7 +162,7 @@ $input-bg-disabled:              $gray-lighter !default;
 $input-color:                    $text-color !default;
 $input-border:                   #ccc !default;
 $input-border-radius:            $border-radius-base !default;
-$input-border-focus:             #66afe9 !default;
+$input-border-focus:             $purple !default;
 
 $input-color-placeholder:        $gray-light !default;
 
@@ -357,10 +357,10 @@ $nav-pills-active-link-hover-color:         $component-active-color !default;
 $pagination-bg:                        #fff !default;
 $pagination-border:                    #ddd !default;
 
-$pagination-hover-bg:                  $gray-lighter !default;
+$pagination-hover-bg:                  $gray-light !default;
 
-$pagination-active-bg:                 #f5f5f5 !default;
-$pagination-active-color:              $gray-light !default;
+$pagination-active-bg:                 $purple !default;
+$pagination-active-color:              #fff !default;
 
 $pagination-disabled-color:            $gray-light !default;
 
@@ -368,7 +368,7 @@ $pagination-disabled-color:            $gray-light !default;
 // Pager
 // -------------------------
 
-$pager-border-radius:                  $border-radius-base !default;
+$pager-border-radius:                  50px !default;
 $pager-disabled-color:                 $gray-light !default;
 
 
@@ -385,19 +385,19 @@ $jumbotron-font-size:            ceil($font-size-base * 1.5) !default;
 // Form states and alerts
 // -------------------------
 
-$state-success-text:             #fff !default;
+$state-success-text:             $brand-success !default;
 $state-success-bg:               $brand-success !default;
 $state-success-border:           darken(adjust-hue($state-success-bg, -10), 5%) !default;
 
-$state-info-text:                #fff !default;
+$state-info-text:                $brand-info !default;
 $state-info-bg:                  $brand-info !default;
 $state-info-border:              darken(adjust-hue($state-info-bg, -10), 7%) !default;
 
-$state-warning-text:             #fff !default;
+$state-warning-text:             $brand-warning !default;
 $state-warning-bg:               $brand-warning !default;
 $state-warning-border:           darken(adjust-hue($state-warning-bg, -10), 3%) !default;
 
-$state-danger-text:              #fff !default;
+$state-danger-text:              #000 !default;
 $state-danger-bg:                $brand-danger !default;
 $state-danger-border:            darken(adjust-hue($state-danger-bg, -10), 3%) !default;
 
