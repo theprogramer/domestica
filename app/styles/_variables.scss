@@ -15,10 +15,17 @@ $gray:                   lighten(#000, 33.5%) !default; // #555
 $gray-light:             lighten(#000, 60%) !default;   // #999
 $gray-lighter:           lighten(#000, 90%) !default;
 
-// Brand colors
-// -------------------------
+// Main colors
+// -------------------------	
+$purple:                #4a1f5d !default;
+$cyan:                  #33bfc0 !default;
+$family:                $cyan;
+$housemaid:             $purple;
 
-$brand-primary:         #007FFF !default;
+// Brand colors
+// -------------------------	
+
+$brand-primary:         $purple !default;
 $brand-success:         #3FB618 !default;
 $brand-warning:         #FF7518 !default;
 $brand-danger:          #FF0039 !default;
@@ -118,7 +125,7 @@ $table-border-color:                 #ddd !default; // table and cell border
 $btn-font-weight:                normal !default;
 
 $btn-default-color:              #fff !default;
-$btn-default-bg:                 $gray-darker !default;
+$btn-default-bg:                 $cyan !default;
 $btn-default-border:             $btn-default-bg !default;
 
 $btn-primary-color:              $btn-default-color !default;
@@ -264,8 +271,8 @@ $navbar-padding-horizontal:        floor($grid-gutter-width / 2) !default;
 $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2) !default;
 
 $navbar-default-color:             #fff !default;
-$navbar-default-bg:                $gray-darker !default;
-$navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;
+$navbar-default-bg:                $purple !default;
+$navbar-default-border:            darken($purple, 6.5%) !default;
 
 // Navbar links
 $navbar-default-link-color:                #fff !default;
@@ -291,8 +298,8 @@ $navbar-default-toggle-border-color:       transparent !default;
 //
 // Reset inverted navbar basics
 $navbar-inverse-color:                      #fff !default;
-$navbar-inverse-bg:                         $brand-primary !default;
-$navbar-inverse-border:                     darken($navbar-inverse-bg, 10%) !default;
+$navbar-inverse-bg:                         $cyan !default;
+$navbar-inverse-border:                     darken($cyan, 10%) !default;
 
 // Inverted navbar links
 $navbar-inverse-link-color:                 #fff !default;

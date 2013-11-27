@@ -1,0 +1,33 @@
+
+// Headings
+// -------------------------
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  text-transform: uppercase;
+   /*
+  small,
+  .small {
+  
+  }
+  */
+}
+
+h1,
+h2,
+h3 {
+
+  small,
+  .small {
+    font-size: 40%;
+  }
+}
+h4,
+h5,
+h6 {
+
+  small,
+  .small {
+    font-size: 55%;
+  }
+}
