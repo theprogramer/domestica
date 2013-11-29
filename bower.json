@@ -1,10 +1,25 @@
 {
   "name": "domestica",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "dependencies": {
     "sass-bootstrap": "~3.0.0",
     "modernizr": "~2.6.2",
     "jquery": "~2.0.3"
   },
-  "devDependencies": {}
+  "homepage": "https://github.com/theprogramer/domestica",
+  "authors": [
+    "Thiago Miranda <theprogramer@theprogramer.com.br>"
+  ],
+  "description": "Domestica theme for DomesticaNet",
+  "main": "app/styles/main.scss",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ]
 }
