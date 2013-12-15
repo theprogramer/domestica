@@ -16,9 +16,12 @@ $local-font-path: "/styles/fonts/";
   font-style: normal;
 }
 
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
+
 @import '_variables';
 @import 'sass-bootstrap/lib/bootstrap';
 @import '_avatar';
 @import '_balloon';
 @import '_btn-anim';
-@import '_type';
+/*@import '_bootswatch';*/
+/* @import '_type'; */
