@@ -1,17 +1,50 @@
 .neighbor {
-  height: 65px;
+  height: 70px;
   > {
     div {
-      float: right;
-      width: 65%;
+      float: left;
+      width: 70%;
       padding: 16px 0 0;
       p {
         margin: 0;
       }
     }
+    a {
+	  float: left;
+	}
+  }
+  .avatar-wrapper {
+    height: 150px;
+  }
+  .avatar-conteiner {
+    width:25% !important;
+    float: left !important;
+    padding: 0;
+    height: 200px;
+    cite {
+      display: block;
+    }
+  }
+  .neighbor-content {
+    width: 50% !important;
+    margin: 25px 0 0;
+    padding: 16px 10px 0;
+    .text {
+      margin: 0;
+	  font-size: 12px;
+	  font-weight: 300 !important;
+    }
+  }
+  .neighbor-side {
+    width: 25%;
+	float: left;
+	margin: 25px 0 0;
+	.emblems {
+	  padding: 10px 0;
+	}
   }
   &:hover {
-    p {
+    .detach {
       color: $purple;
       font-weight: bold;
     }
