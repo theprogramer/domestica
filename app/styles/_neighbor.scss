@@ -1,0 +1,19 @@
+.neighbor {
+  height: 65px;
+  > {
+    div {
+      float: right;
+      width: 65%;
+      padding: 16px 0 0;
+      p {
+        margin: 0;
+      }
+    }
+  }
+  &:hover {
+    p {
+      color: $purple;
+      font-weight: bold;
+    }
+  }
+}

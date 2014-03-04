@@ -1,0 +1,23 @@
+.icon {
+  border: 1px solid #888;
+  color: #999;
+  font-size: 22px;
+  height: 50px;
+  padding-top: 13px;
+  text-align: center;
+  width: 50px;
+
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+
+  @include transition(all 0.3s ease-out);
+  
+  &:hover {
+    color: $purple;
+    border-color: $purple;
+	font-weight: 400;
+	outline: none !important;
+	text-decoration: none;
+  }
+}
