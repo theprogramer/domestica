@@ -1,11 +1,11 @@
 // Colors
 // -------------------------
-$avatar-border-color: $purple;
+$avatar-border-color: #FFFFFF;
 
 // Ratio
 // -------------------------
 $avatar-percent-ratio: 0.2;
-$avatar-ratio-border: 0.03;
+$avatar-ratio-border: 0.05;
 
 // Medium
 // -------------------------
@@ -36,6 +36,7 @@ $avatar-mini-border-size: 1px;
   width: $avatar-medium-size;
   margin: $avatar-medium-margin;
   border: $avatar-medium-border-size solid $avatar-border-color; 
+  box-shadow: inset 1px 1px 4px rgba(0,0,0,0.3), 0 2px 3px rgba(0,0,0,0.4);
   &:hover {
     width: $avatar-medium-size + ($avatar-medium-size * $avatar-percent-ratio);
     height: $avatar-medium-size + ($avatar-medium-size * $avatar-percent-ratio);
@@ -79,11 +80,15 @@ $avatar-mini-border-size: 1px;
   }
 
   &.family {
-    border-color: $family;
+    &:hover {
+      border-color: $family;
+    }
   }
 
   &.housemaid {
-    border-color: $housemaid;
+    &:hover {
+      border-color: $housemaid;
+    }
   }
 
   @include transition(all 0.2s);

@@ -16,12 +16,27 @@ $local-font-path: "/styles/fonts/";
   font-style: normal;
 }
 
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
+@font-face {
+  font-family: 'Sansation';
+  src: url('#{$local-font-path}sansation_regular-webfont.eot');
+  src: url('#{$local-font-path}sansation_regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('#{$local-font-path}sansation_regular-webfont.woff') format('woff'),
+       url('#{$local-font-path}sansation_regular-webfont.ttf') format('truetype'),
+       url('#{$local-font-path}sansation_regular-webfont.svg#sansation_regular-webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
 @import '_variables';
 @import 'sass-bootstrap/lib/bootstrap';
+@import '_wrapper';
 @import '_avatar';
 @import '_balloon';
 @import '_btn-anim';
 @import '_bootswatch';
+@import '_photo';
+@import '_neighbor';
+@import '_icon';
+@import '_teaser';
+@import '_rate';
 /* @import '_type'; */
